@@ -1,12 +1,13 @@
-/* WAP in java to assign two round integer, calculate and display sum and average. */
+import java.io.*;
 class Sum
-{	
-	public static void main(String art[])
+{
+	public static void main(String arg[])throws IOException
 	{
-		int a=5, b=10;
-		System.out.println("a="+a+",b="+b);
-		System.out.println("Sum="+a+b);
-		System.out.println("Sum="+(a+b));
-		System.out.println("Averagte="+(a+b)/2.0);
+		BufferedReader x=new BufferedReader(new InputStreamReader(System.in));
+		int a,b;
+		System.out.print("Enter two no:");
+		a=Integer.parseInt(x.readLine());
+		b=Integer.parseInt(x.readLine());
+		System.out.print("sum="+(a+b));
 	}
 }

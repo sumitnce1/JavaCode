@@ -1,2 +1,2 @@
 # JavaCode
-This repository in basic to advanced java code.
+This Repository in basic to advanced java code.

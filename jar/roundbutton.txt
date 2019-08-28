@@ -1,0 +1,3 @@
+UIManager.setLookAndFeel(UIMAnager.getSystemLookAndFeelClassName());
+UIManager.setLookAndFeel("com.jtattoo.plef.aluminium.AluminiumLookAndFeel");
+try catch... 
